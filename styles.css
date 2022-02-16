@@ -1,0 +1,127 @@
+
+
+/*
+Laura Mills Nelson
+Final Project
+Web Programming, CSCI 210, Sect. 01
+11/14/2020
+
+styles.css
+
+This is the style sheet for Kalispell Candy Shoppe's website.
+
+*/
+
+
+
+	body { font-family: 'Arial', sans-serif;
+			width: 90%; 
+			margin: auto; 
+			background-color: pink; }		
+	
+	.menu { text-align: center; }
+	
+	.signin { text-align: center; }
+	
+	header { 	
+	background-image: url("images/candy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin-top: 2%;
+	}
+
+	h1 {
+	color: #FFFFFF;
+	color: hsla(0, 0%, 100%, .85);
+	line-height: 300px;
+	text-align: center;
+	font-size: 400%;
+	font-family: 'Arial', sans-serif;
+	}
+	
+	h2 { text-align: center; }	
+	
+	.accountbtn1 { text-align: center;
+				 padding: 10px; }
+				 
+	.accountbtn2 { padding: 10px 20px;
+				  font-weight: bold; }
+	
+	.updatecol { text-align: center; }
+				  
+	.atable { margin: auto; }
+	
+	h3 { font-style: italic; }
+		 
+	.ca_error { text-align: center; }
+	
+	.infolist { text-align: left; }
+	
+	.ptable { margin: auto;
+			  border-collapse: collapse;
+			  border: 3px solid #000000;
+			  text-align: center; }		 
+		  
+	
+	.ptableh { font-weight: bold; 
+			   background-color: #DB14FA;
+			   border: 3px solid #000000;
+			   font-size: 110%; }
+	
+	.pcolumnh { font-weight: bold;
+			   background-color: magenta;
+			   border: 3px solid #000000; }
+			   
+	.ptabletd { text-align: center;
+				padding: 10px;
+				background-color: #FFFFFF; }		   
+			   
+	.deleteb { background-color: orange;
+			   border: 2px solid #000000;
+			   color: #000000;
+			   padding: 5px 10px;
+			   font-weight: bold; }	
+
+	.editb { background-color: #5DEB4D;
+			   border: 2px solid #000000;
+			   color: #000000;
+			   padding: 5px 10px;
+			   font-weight: bold; }	
+			
+	
+	
+	footer { 
+	background-image: url("images/footer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 2%;
+	}
+	
+	.copyright { text-align: center;
+				 width: 90%;
+				 margin: auto; }
+	
+	@media only screen and (max-width: 1024px) {
+	
+	h1 { 
+	line-height: 300px;
+	font-size: 350%;
+	}
+	
+	}
+	
+	
+	@media only screen and (max-width: 768px) {
+	
+	h1 {
+		line-height: 150px;
+		font-size: 300%;
+	}
+
+	
+	}
+	
+	
+	header, main, nav, footer, figure, figcaption { display: block; }
